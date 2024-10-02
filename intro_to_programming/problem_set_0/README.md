@@ -28,7 +28,7 @@ fn indoor () {
 fn playback_speed () {
     let mut input = String::new();
 
-    println!("Enter your name: ");
+    println!("Enter a sentencer with spaces: ");
     
     io::stdin().read_line(&mut input).expect("Failed to read line");
     
