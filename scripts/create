@@ -1,0 +1,16 @@
+#!/bin/bash
+
+base_folder_name="problem_set_"
+folder_number=$1
+
+echo "Creating $base_folder_name$folder_number"
+mkdir -p "$base_folder_name$folder_number"
+
+echo "Moving into $base_folder_name$folder_number"
+cd "$base_folder_name$folder_number"
+
+echo "Creating README.md"
+touch README.md
+
+echo "Creating Cargo.toml"
+cargo init
