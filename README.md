@@ -2,4 +2,4 @@
 
 ### Function and variables
 
-[HERE](./problem_set_0/README.md)
+[problem_set_0](./problem_set_0/README.md)
