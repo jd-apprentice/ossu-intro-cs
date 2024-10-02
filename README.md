@@ -1,5 +1,8 @@
-## OSS
+# OSS
 
-### Function and variables
+![readme](wallpaper.png)
 
-[problem_set_0](./problem_set_0/README.md)
+## Intro to Programming
+
+- [Problem Set 0](./intro_to_programming/problem_set_0/README.md)
+- [Problem Set 1](./intro_to_programming/problem_set_1/README.md)

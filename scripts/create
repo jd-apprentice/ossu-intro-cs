@@ -2,6 +2,13 @@
 
 base_folder_name="problem_set_"
 folder_number=$1
+is_intro_to_programming=${2:-yes}
+
+if [ "$is_intro_to_programming" != "yes" ]; then
+    cd intro_to_cs_and_programming
+fi
+
+cd intro_to_programming
 
 echo "Creating $base_folder_name$folder_number"
 mkdir -p "$base_folder_name$folder_number"
